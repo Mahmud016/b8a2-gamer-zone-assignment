@@ -195,9 +195,28 @@ h4 {
     gap: 24px;
 }
 
-.video-box-container > h4 {
+.video-box-container>h4 {
     text-align: left;
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+/* <!-- games classification part --> */
+.games-classification {
+    margin: 130px 0px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+
+.game-box {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    
 }
