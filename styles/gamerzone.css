@@ -15,6 +15,15 @@
     border: 0px;
 }
 
+.primary-gradient {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Banner Section */
 /* Navigation Bar */
 nav {
@@ -67,4 +76,89 @@ nav>.menu-bar {
 .follow-logo {
     width: 33px;
     padding: 16px 16px 16px 0px;
+}
+
+/* Banner style */
+.Banner {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-description {
+    margin-left: 240px;
+    margin-top: 148px;
+}
+
+.moto {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.banner-description-title {
+    margin: 0px;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-details {
+    margin-top: 24px;
+}
+
+.banner-details>h4 {
+    margin-top: 0px;
+    margin-bottom: 17px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-button {
+    margin-top: 41px;
+}
+
+#btn-pink {
+    background-color: #FF42A5;
+}
+
+#btn-blue {
+    background-color: #4EC5F7;
+}
+
+/* banner-img */
+.banner-img {
+    margin-right: 230px;
+}
+
+/* We are gamer */
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gamer-img {
+    margin: 0px 140px;
+}
+
+.gamer-info {
+    margin: 0px 240px 0px 30px;
+    text-align: right;
+}
+
+.gamer-info > h1 {
+    margin: 95px 0px 24px 20px;
+    padding-left: 0px;
+}
+.gamer-info > button{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
