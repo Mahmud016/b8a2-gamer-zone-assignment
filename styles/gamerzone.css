@@ -205,15 +205,55 @@ h4 {
     font-weight: 500;
 }
 
+/* play-section */
+.play {
+    margin: 120px 0px;
+    display: flex;
+    padding-left: 440px;
+    padding-right: 240px;
+}
+
+.play-details {
+    padding-right: 220px;
+    padding-top: 200px;
+    text-align: right;
+}
+
+.play-details h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-details p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+#instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pink-girl-img{
+    position: relative;
+    bottom: 270px;
+    right: 120px;
+}
+
 
 /* <!-- games classification part --> */
 .games-classification {
     justify-content: center;
     padding: 10px 160px;
-    margin: 50px 0px 0px 0px ;
+    margin: 50px 0px 0px 0px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
 
 }
 
@@ -221,8 +261,9 @@ h4 {
     display: flex;
     align-items: center;
     margin-top: 25px;
-    gap: 10px;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
     width: 243px;
     height: 80px;
     border-radius: 50px;
@@ -233,6 +274,21 @@ h4 {
     margin: 0px;
     padding: 30px 5px 25px 0px;
     text-align: center;
+}
+
+.game-box-1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 100px;
+
+}
+
+.game-box-2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 150px;
 }
 
 /* foeter section */
