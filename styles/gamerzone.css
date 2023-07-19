@@ -283,6 +283,10 @@ h4 {
     padding-top: 100px;
 
 }
+#arcad-hover:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
 
 .game-box-2 {
     display: flex;
