@@ -24,6 +24,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+header {
+    width: 1920px;
+}
+main {
+    width: 1920px;
+}
+
 /* Banner Section */
 /* Navigation Bar */
 
@@ -69,7 +76,7 @@ nav>.menu-bar {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     gap: 10px;
-    padding: 10px;
+    padding: 0px 10px;
     font-size: 18px;
     font-weight: 500;
     color: #3C354F;
@@ -141,8 +148,11 @@ nav>.menu-bar {
     max-width: 100%;
     margin-right: 230px;
 }
-
+/* Main style */
 /* We are gamer */
+main {
+    max-width: 1920px;
+}
 .gamer-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
@@ -395,3 +405,132 @@ footer>.logo {
 
 /* Responsive media quarry */
 /* Mobile responsive */
+        @media screen and (max-width: 425px) {
+            header {
+                /* display: block; */
+                width: 425px;
+                
+            }
+
+            nav {
+                flex-direction: column;
+                box-shadow: none;
+            }
+
+            .logo {
+                text-align: center;
+                margin: 0px;
+                
+            }
+
+            .menu-bar {
+                padding: 0px 100px;
+                margin: 0px;
+                width: 425px;
+                flex-direction: column;
+                justify-content: center;
+
+
+            }
+
+            .follow-bar {
+                text-align: center;
+            }
+
+            .follow-bar img {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .Banner {
+                /* width: 425px; */
+                max-width: 425px;
+                flex-direction: column;
+                
+            }
+
+            .banner-description {
+                text-align: center;
+            }
+
+            .banner-button {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+            }
+
+            .banner-img img{
+                width: 100%;
+            }
+
+            .video-section {
+                max-width: 425px;
+            }
+            main {
+                max-width: 425px;
+            }
+            .gamer-section {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .gamer-img img {
+                display: block;
+                margin: 0 auto;
+                max-width: 300px;
+            }
+
+            .gamer-info h1 {
+                text-align: center;
+            }
+
+            .video-section h1 {
+                text-align: center;
+            }
+
+            .video-section h4 {
+                text-align: center;
+            }
+
+            .video-box-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .box {
+                flex: 0 0 50%;
+            }
+
+            .play {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .play-details h2 {
+                text-align: center;
+            }
+
+            .play-img img {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .games-classification {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .game-box-1,
+            .game-box-2 {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .game-box {
+                flex: 0 0 50%;
+            }
+
+            .media-icons {
+                text-align: center;
+            }
+        }
